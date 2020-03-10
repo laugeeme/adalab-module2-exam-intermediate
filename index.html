@@ -33,7 +33,7 @@
         }
         
 
-        .numberAttemps {
+        .numberAttempts {
             font-size: 16px;
             color: gray;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -56,16 +56,16 @@
         </div>
 
         
-        <label for="numberInput" name= "numberInput" class="subtitle"/> Introduce aquí tu número</label>
-        <input type="text" id="numberInput" class="numberInput">
+        <label for="number" class="subtitle"/> Introduce aquí tu número</label>
+        <input type="number" name="number" id="number" class="numberInput">
         
  
         <button type= "submit" class="buttonSubmit">Prueba</button>
 
 
         <div>
-            <p class="clue"></p>
-            <p class="numberAttemps"></p>
+            <p class="clue">Escribe el número y dale a prueba</p>
+            <p class="numberAttempts">Número de intentos: <span id="numberAttempts">0</span></p>
         </div>
 
     </main>
