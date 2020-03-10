@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .title {
+            font-size: 40px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .buttonSubmit{
+            background-color: mediumaquamarine;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .clue {
+            font-size: 16px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 2px solid grey;
+            padding: 20px;
+        }
+        
+
+        .numberAttemps {
+            font-size: 16px;
+            color: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 2px solid grey;
+            padding: 20px;
+        }
+
+
+    </style>
+
+    <title>Adivina el número</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div>
+            <h1 class="title">Adivina el número</h1>
+        </div>
+
+        
+        <label for="numberInput" name= "numberInput" class="subtitle"/> Introduce aquí tu número</label>
+        <input type="text" id="numberInput" class="numberInput">
+        
+ 
+        <button type= "submit" class="buttonSubmit">Prueba</button>
+
+
+        <div>
+            <p class="clue"></p>
+            <p class="numberAttemps"></p>
+        </div>
+
+    </main>
+
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+
+</html>
