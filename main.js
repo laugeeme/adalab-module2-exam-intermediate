@@ -8,12 +8,10 @@ const numberAttemptsElem = document.querySelector('#numberAttempts');
 
 
 function getRandomNumber(max) {
-
     return Math.ceil(Math.random() * max)
     }
 
 const result = getRandomNumber(100);
-
     console.log(result);
    
 
@@ -24,7 +22,6 @@ function getNumber (){
     }
 
     if (numberInputElem.value < result) {
-    
         clueElem.innerHTML = 'Demasiado bajo';
     }
 
@@ -37,7 +34,6 @@ function getNumber (){
  
 
     numberAttemptsElem.innerHTML = parseInt(numberAttemptsElem.innerHTML) + 1;
-
 
 }
 
